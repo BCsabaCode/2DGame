@@ -1,0 +1,108 @@
+﻿#2020.02.23
+-Project Setup
+#2020.02.24
+-Implement Basic Rendering
+#2020.02.29
+-Refactor and remove obsolete code
+#2020.03.03
+-Implemented pre-made level loading
+-Made test assets
+-Added basic scrolling of level
+#2020.03.06
+-Changed rendering to isometric projection
+#2020.03.09
+-Spiresheet loading instead of single Sprites
+-Level and screen logic separated
+#2020.03.10
+-Added basics of Entities
+#2020.03.20
+-Refactor and Minor Additions
+-Center camera around the player
+-Handling KeyBoard user input
+#2020.03.22
+-Minor changes to rendering for future player UI
+-Tile system and collision detection for tiles
+#2020.03.23
+-Added animated sprites
+#2020.03.29
+-Refactor code
+#2020.03.30
+-Reworked rendering (progress 60%)
+#2020.03.31
+-Handling Mouse user input & Reworked rendering (progress 75%)
+-Reworked rendering (progress 80%)
+#2020.04.05
+-Reworked rendering done 100%
+-Render fixes and fixing collision detection
+-Preparations for AI related stuff and more fixes for rendering
+#2020.04.06
+-Implement A* pathfinding algorithm
+#2020.04.07
+-Fixes to A* implementation and other small fixes
+-Start implementing Projectiles and Particles and Spawners
+#2020.04.12
+-Implement Particles and related changes
+-Projectiles 80%
+#2020.04.13
+-Small rework to Sprite and add new Sprite creation way
+#2020.04.14
+-Finish projectiles, particles, spawners. Note: some numerical adjustment required
+-Implement basic sound system
+#2020.04.20
+-Procedural Generation 50%
+#2020.04.21
+-Procedural Generation 75% (Fixed filtering and added Sector generation)
+#2020.04.25
+-Major overhaul for sectors for better functionality
+#2020.04.26
+-Fix entity sorting, fix projectile and particle collision detection
+-Fix wall transparency
+-Implement Wall Tops
+#2020.04.27
+-Fix wall render order sorting & Rework Map Generation 25%
+-Rework Map Generation 50% (+Hallway section test)
+#2020.04.28
+-Rework Map Generation 70% (Generated rooms connected by hallway)
+-Finished Procedural Generation (Requires fine tunning)
+-Fine tuned Procedural Generation
+#2020.04.29
+-Add render condition to sectors for better performance
+#2020.05.03
+-Trying to fix projectiles
+#2020.05.04
+-Fixed projectiles
+-Minimap 50%
+#2020.05.05
+-Minimap 90%
+-Minimap Finished
+-Fix projectile rendering
+#2020.05.08
+-Init Networking Code
+-Setup basic networking
+#2020.05.09
+-Implement basic networking (Requires testing after main menu)
+-Added new pages for main menu
+#2020.05.10
+-Add networking test code
+-Basic networking DONE (Tested)
+#2020.05.11
+-UI fixes and miscellaneous changes
+#2020.05.12
+-Server client syncing
+-Entity syncing
+#2020.05.18
+-Single player enemy generation
+-Improve AnimatedSprites & add UI
+-Prepare mobs for new assets
+#2020.05.19
+-More UI & Player ammo & Pickupable objects
+-More advanced Dumm AI & Misc
+-Make AStar more reasonable
+#2020.05.24
+-Fix level generation bias & Misc
+#2020.05.26
+-Player idle animation & better path finding
+-Shooting logic and shooting animation
+-Fix shooting animation
+-Add movement animation & Mob walking/idle animation
+-Add shooting animation for mobs
