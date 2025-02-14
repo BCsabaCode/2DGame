@@ -4,7 +4,7 @@ namespace GameEngine.Inputs
 {
     class KeyBoard
     {
-        public bool up, down, left, right, reload;
+        public bool up, down, left, right, escape;
         public static bool upArrow, downArrow, rightArrow, leftArrow, tab;
         public void Update(VirtualKey vk, bool value)
         {
@@ -14,12 +14,12 @@ namespace GameEngine.Inputs
                 case VirtualKey.S: down = value; break;
                 case VirtualKey.A: left = value; break;
                 case VirtualKey.D: right = value; break;
-                case VirtualKey.F5: reload = value; break;
                 case VirtualKey.Up: upArrow = value; break;
                 case VirtualKey.Down: downArrow = value; break;
                 case VirtualKey.Left: leftArrow = value; break;
                 case VirtualKey.Right: rightArrow = value; break;
                 case VirtualKey.Tab: tab = value; break;
+                case VirtualKey.Escape: escape = value; break;
             }
         }
     }

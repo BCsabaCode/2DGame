@@ -35,6 +35,7 @@ This project uses a signing certificate for deployment (required for UWP apps). 
 - W, A, S, D movement in cardinal directions
 - Left click shoot an arrow in the direction of the cursor
 - Tab toggle minimap that updates realtime as the player explores the map
+- Esc close application
 
 ## Video sample of the running game
 

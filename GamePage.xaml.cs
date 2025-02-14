@@ -294,7 +294,7 @@ namespace Game2D
                 format.FontSize = 100;
                 format.HorizontalAlignment = CanvasHorizontalAlignment.Center;
                 format.VerticalAlignment = CanvasVerticalAlignment.Center;
-                screen.RenderText(screen.GetWidth() / 2, screen.GetHeight() / 2, "GAME OVER", format);
+                screen.RenderText(screen.GetWidth() / 2, screen.GetHeight() / 2, "GAME OVER\n\nPress Esc to close game", format);
             }
         }
 
@@ -330,19 +330,12 @@ namespace Game2D
             if (level != null) level.Update();
             if (ui != null) ui.Update();
 
-            if (Mouse.GetButton() == Mouse.Button.Left)
+            // Terminate application on Escape press
+            if (key.escape)
             {
-                Vector2 vec2 = Mouse.GetIsoCoordinate();
+                Application.Current.Exit();
             }
-            if (Mouse.GetButton() == Mouse.Button.Right)
-            {
-                test = true;
-            }
-            if (test)
-            {
-                Sound.PlaySound("shot.mp3");
-                test = false;
-            }
+
 
             if (animated_assests_ready && animated_assests_ready2 && animated_assests_ready3 && animated_assests_ready4)
                 AnimatedSprite.GetUpdateables().ForEach(e => e.Update());
