@@ -41,7 +41,6 @@ namespace GameEngine.Entities.Mobs
 
         public override void Update()
         {
-            //Debug.WriteLine(position);
             CheckHP();
             IsDead();
             int xChange = 0;

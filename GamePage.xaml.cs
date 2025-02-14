@@ -142,7 +142,7 @@ namespace Game2D
                 //Init level
                 level.Init();
 
-                //Ido meres
+                //Time measurement
                 watch.Start();
                 lastTime = watch.ElapsedMilliseconds;
 
@@ -156,7 +156,7 @@ namespace Game2D
             } 
             else
             {
-                //Ido meres
+                //Time measurement
                 watch.Start();
                 lastTime = watch.ElapsedMilliseconds;
 
@@ -240,7 +240,7 @@ namespace Game2D
         }
 
         /// <summary>
-        /// Eroforrasok betoltese
+        /// Reasource loading
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="args"></param>
@@ -259,7 +259,7 @@ namespace Game2D
 
             //AnimatedSprite Setup
             AnimatedSprite.Init(sender);
-            // Parallel osztályra keress rá
+            
             //Load AnimatedSpriteSheets
             animated_assests_ready = await AnimatedSprite.LoadSheet(@"\resources\spritesheets\player_sheet_data.txt", @"\resources\spritesheets\player_sprites.png");
             animated_assests_ready2 = await AnimatedSprite.LoadSheet(@"\resources\spritesheets\mobs_sheet_data.txt", @"\resources\spritesheets\mobs_sprites.png");
@@ -333,8 +333,6 @@ namespace Game2D
             if (Mouse.GetButton() == Mouse.Button.Left)
             {
                 Vector2 vec2 = Mouse.GetIsoCoordinate();
-                //Debug.WriteLine("MouseX: " + vec2.X + " MouseY: " + vec2.Y);
-                //Debug.WriteLine("MouseCordX: " + (int)vec2.X / 32 + " MouseCordY: " + (int)vec2.Y / 32);
             }
             if (Mouse.GetButton() == Mouse.Button.Right)
             {

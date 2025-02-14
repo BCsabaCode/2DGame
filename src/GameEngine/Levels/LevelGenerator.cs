@@ -28,12 +28,6 @@ namespace GameEngine.Levels
             List<Room> rooms = new List<Room>();
             List<Hallway> hallways = new List<Hallway>();
 
-            //Start position
-            /*int s = random.Next(4);
-
-            int sx = s % 2 * (size - 16);
-            int sy = (s >> 1) * (size - 16);*/
-
             Room start = new Room(0, 0, 16, 16);
             //Open up starting branches
             start.OpenBranch(1);
@@ -351,9 +345,6 @@ namespace GameEngine.Levels
             Debug.WriteLine("Map created");
 
             //Generate sectors
-            //Sector sector = new Sector(0, 0, size, size); //Temp
-            //sector.Finalise();
-            //map.AddSector(sector);
             CreateSectors(rooms);
 
             CreateHallwaySectors(hallways);

@@ -62,7 +62,7 @@ namespace GameEngine.Networking
                         writer = new BinaryWriter(output);
 
                         new Connecting().WriteData(writer);
-                        //await writer.FlushAsync();
+
                         writer.Flush();
                     }
                     catch (Exception e)

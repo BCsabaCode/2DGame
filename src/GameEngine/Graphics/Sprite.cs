@@ -116,10 +116,10 @@ namespace GameEngine.Graphics
         }
 
         /// <summary>
-        /// Sprite betoltes
+        /// Sprite loading
         /// </summary>
-        /// <param name="spriteSheetDataPath">sheet_data helye</param>
-        /// <param name="spriteSheetPath">Spritesheet helye</param>
+        /// <param name="spriteSheetDataPath">sheet_data location</param>
+        /// <param name="spriteSheetPath">Spritesheet location</param>
         /// <returns></returns>
         public static async Task<bool> LoadSheet(string spriteSheetDataPath, string spriteSheetPath)
         {

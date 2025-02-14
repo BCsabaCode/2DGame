@@ -17,8 +17,6 @@ namespace GameEngine.Entities.Projectiles
         static readonly int yOffsetSize = 8;
         static Sprite sprite = Sprite.GetSprite(Sprite.GetSpriteID("basic_projectile"));
 
-        //static readonly HitBox hitBox = new HitBox(16, 16, 4, 0);
-
         readonly float sinA, cosA;
 
         public BasicProjectile(Vector2 origin,float z, double angle, Mob owner) : base(origin, z, angle, owner)

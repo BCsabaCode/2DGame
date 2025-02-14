@@ -103,13 +103,11 @@ namespace GameEngine.Entities.Mobs
                     _pathIndex++;
                     if (_pathIndex == _path.Count())
                     {
-                        //Debug.WriteLine("Destination reached");
                         pathfinding_cooldown = 0;
                         _path = null;
                         _pathIndex = 0;
                         _hasPath = false;
-                    }/* else
-                        Debug.WriteLine("Next node" + _path[_pathIndex]);*/
+                    }
                 }
             }
 

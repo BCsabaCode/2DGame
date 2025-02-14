@@ -19,7 +19,6 @@ namespace GameEngine.Levels
         List<Player> players = new List<Player>();
         List<Entity> tmp = new List<Entity>();
         List<EntityCorrection> corrections = new List<EntityCorrection>();
-        //protected Action mapLoading;
 
         protected Map map;
 
@@ -122,9 +121,6 @@ namespace GameEngine.Levels
             {
                 if (entity is Mob m) mobs.Add(m);
             });
-            /*Debug.WriteLine("entity count: " + entities.Count);
-            mobs = entities.FindAll(e => e is Mob).ConvertAll(e => (Mob)e);
-            Debug.WriteLine("mob count: " + mobs.Count);*/
             return mobs;
         }
 

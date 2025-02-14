@@ -12,7 +12,6 @@ namespace GameEngine.Levels
 
         public PlannedLevel(string path, string sector_data)
         {
-            //mapLoading = new Action(async () => await Load_level(path, sector_data));
             Load_level(path, sector_data);
         }
 

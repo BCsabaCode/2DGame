@@ -5,7 +5,7 @@ namespace GameEngine.Interfaces
     interface IRenderable
     {
         /// <summary>
-        /// Ezen methodussal tud rajzolni a canvas-re
+        /// With this function it can draw on the screen
         /// </summary>
         /// <param name="screen">Screen to render on</param>
         void Render(Screen screen);

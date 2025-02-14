@@ -30,5 +30,11 @@ This project uses a signing certificate for deployment (required for UWP apps). 
 
 *Note:* This certificate is for development purposes only.
 
+## Controls
+
+- W, A, S, D movement in cardinal directions
+- Left click shoot an arrow in the direction of the cursor
+- Tab toggle minimap that updates realtime as the player explores the map
+
 ## Video sample of the running game
 

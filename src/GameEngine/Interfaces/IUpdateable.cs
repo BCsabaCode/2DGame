@@ -3,7 +3,7 @@
     interface IUpdateable
     {
         /// <summary>
-        /// Általános update függvény
+        /// General update function
         /// </summary>
         void Update();
     }
