@@ -39,3 +39,4 @@ This project uses a signing certificate for deployment (required for UWP apps). 
 
 ## Video sample of the running game
 
+https://github.com/user-attachments/assets/ad294b83-ead5-441f-bbed-d12d0bac9cd9
